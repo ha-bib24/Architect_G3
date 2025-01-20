@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", serif;
+}
+/* Reusable Comp */
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.btn-primary{
+    padding: 20px 25px;
+    background: #FF900E;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* Reusable Comp */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0px auto;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;;
+}
+.nav-item{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0px 20px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content .title{
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+}
+.banner-content .subtitle{
+    text-align: center;
+    margin: 25px 0px;
+}
+.banner-image{
+    margin-top: 50px;
+}
+.banner-image img{
+    width: 100%;
+}
+#team-section{
+    margin-top: 100px;
+}
+.team{
+    display: flex;
+    align-items: center;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.team-images img{
+    width: 100%;
+}
+.team-content{
+    padding-left: 70px;
+}
+.team-content .title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.team-content .quick{
+    font-weight: 500;
+}
+.team-content .q-features{
+    color: #FF900E;
+}
+.team-content .subtitle{
+    margin: 25px 0px;
+}
+#features{
+    margin-top: 100px;
+}
+.features-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.features-section .title{
+    font-weight: 700;
+    font-size: 2.8rem;
+    width: 70%;
+    border-left: 5px solid#FF900E;
+    padding-left: 15px;
+}
+.features-section .subtitle{
+    margin: 25px 0px;
+}
+.features-card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.card-subtitle{
+    margin-top: 20px;
+}
+.features-images{
+    padding-left: 100px;
+    
+}
+.image-container{
+    position: relative;
+}
+.features-images img{
+    width: 100%;
+    
+}
+.features-btn{
+    padding: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -75px;
+    margin-left: -90px;
+}
+.features-btn .age{
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.features-btn .experience{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+#facts{
+    margin-top: 100px;
+}
+.facts-container .facts-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.facts-container .facts-subtitle{
+    margin-top: 25px;
+    max-width: 50%;
+}
+.facts-card{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    text-align: center;
+}
+.facts-card .facts-item{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 35px;
+}
+.facts-card .card-title{
+    margin: 10px 0px;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.facts-card .card-subtitle{
+    font-weight: 600;
+}
+#sponsors{
+    margin-top: 100px;
+}
+.our-sponsors{
+    text-align: center;
+}
+.our-sponsors .sponsors-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.our-sponsors .sponsors-subtitle{
+    margin: 25px auto;
+    width: 40%;
+}
+.social-platform{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+}
+.social-platform .platform-item img{
+    filter: grayscale(100%);
+}
+footer{
+    max-width: 1280px;
+    margin: 100px auto;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 40px 0px;
+}
+footer p{
+    font-size: 1.2rem;
+}
